@@ -10,7 +10,6 @@ namespace ECommerce
     {
         public int CartID { get; set; }
         public List<Item> Items { get; set; }
-        public int Quantity { get; set; }
         public double TotalAmount { get; set; }
     }
 }
